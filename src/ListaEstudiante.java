@@ -1,19 +1,20 @@
 
 import java.util.Collections;
 import java.util.LinkedList;
-import tallerlinkedlist.Estudiante;
+
 
 /**
  *
  * @author USUARIO
  */
-public class ListaEstudiante {
+public class ListaEstudiante {  
     
-     LinkedList<Estudiante> Lista;
+    static LinkedList<Estudiante> Lista;
 
     public ListaEstudiante() {
         Lista = new LinkedList<>();
-    }
+        
+     }
 
    public void agregarEstudiante(Estudiante e){
        Lista.add(e);
